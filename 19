@@ -2,8 +2,8 @@ getgenv().petsGoConfig = {
     AUTO_RESTART = true,
     -- true/false (true = consume, false = automail)
     CONSUME_CORRUPTED_HUGE_BAIT = true,
-    CONSUME_ALL_ENCHANT_SAFE = false,
-    CONSUME_ALL_MINING_CHEST = false,
+    CONSUME_ALL_ENCHANT_SAFE = true,
+    CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_EGG = false, -- Hype eggs not included
     CONSUME_ALL_THIEVING_CHEST = false,
     CONSUME_INSTA_LUCK_4 = true,
@@ -15,7 +15,7 @@ getgenv().petsGoConfig = {
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
-    MINE_ALL_ORES = true,  -- true = all ore, false = runic & event ore
+    MINE_ALL_ORES = false,  -- true = all ore, false = runic & event ore
 	
     PICKAXE_ENCHANTS = {"Speed", "Strength", "Huges"},
     
