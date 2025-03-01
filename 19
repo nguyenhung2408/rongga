@@ -21,7 +21,7 @@ getgenv().petsGoConfig = {
     MAILING = true,  -- Auto mail
     SHOW_PET_WEBHOOK_USERNAME = true,
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
-    MAIL_PET_ODDS = 700000100,  -- Minimum Pet Odds To Mail
+    MAIL_PET_ODDS = 900000100,  -- Minimum Pet Odds To Mail
 
     USERNAME_TO_MAIL = {"boyhanh12"} -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
 }
