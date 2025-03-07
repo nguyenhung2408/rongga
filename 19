@@ -2,13 +2,12 @@ getgenv().petsGoConfig = {
     AUTO_RESTART = true,
     -- true/false (true = consume, false = automail)
     CONSUME_CORRUPTED_HUGE_BAIT = true,
-    CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
-    CONSUME_ALL_THIEVING_CHEST = false,
     CONSUME_INSTA_LUCK_4 = true,
-     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
     CONSUME_VAULT_KEY = true,
+    CONSUME_KRAKEN_TENTACLE = true,
+    CONSUME_BUCKET_O_CHUM = true,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1336292908344807434/KkiKk-uuRNj-oRfNacKJ31gw8uGwZRiGwvUOQGskjs6Wp_5-LEZAUlYFyeXwnOzBd4Gb",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1336295855657062431/lWwQlp10lntP9iiCp-d1YXwtg6-pypkRFOGt7sO2gxC8WxMJRxxH5R6y3AH_3hE4_TjI",
@@ -28,18 +27,21 @@ MASTERY_CAPE = "",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Sk
     MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
     MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
 
-    MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
-	  -- General
-	  INSTA_POTION_IV = 5,
-	  CORRUPTED_HUGE_BAIT = 20,
-	  CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
-	  EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
-	  CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
-	  CELESTIAL_ENCHANT_SAFE = 1,
-	  EVENT_GIFT_BAG = 1,
-	  EVENT_EGG = 10,
-	  LEGENDARY_THIEVING_CHEST = 5,
-    },
+ MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
+  -- General
+  INSTA_POTION_IV = 5,
+  CORRUPTED_HUGE_BAIT = 20,
+  CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
+  EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
+  CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
+  CELESTIAL_ENCHANT_SAFE = 1,
+  EVENT_GIFT_BAG = 1,
+  EVENT_EGG = 10,
+  LEGENDARY_THIEVING_CHEST = 5,
+  KRAKEN_TENTACLE = 5,
+  BUCKET_O_CHUM = 5,
+},
+ 
 
     USERNAME_TO_MAIL = {"boyhanh12", "gregorywilliams047"} -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
 }
