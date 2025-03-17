@@ -8,7 +8,6 @@ getgenv().petsGoConfig = {
     CONSUME_VAULT_KEY = true,
     CONSUME_KRAKEN_TENTACLE = true,
     CONSUME_BUCKET_O_CHUM = true,
-
     WEBHOOK_URL = "https://discord.com/api/webhooks/1336292908344807434/KkiKk-uuRNj-oRfNacKJ31gw8uGwZRiGwvUOQGskjs6Wp_5-LEZAUlYFyeXwnOzBd4Gb",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1336295855657062431/lWwQlp10lntP9iiCp-d1YXwtg6-pypkRFOGt7sO2gxC8WxMJRxxH5R6y3AH_3hE4_TjI",
     DISCORD_ID = "1174567331612065792",
@@ -48,7 +47,7 @@ getgenv().petsGoConfig = {
     BUCKET_O_CHUM = 5,
     },
 
-    USERNAME_TO_MAIL = {"Robloxianc8i9p0t3s", "Robloxianc3s2b3k3m"}, -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
+    USERNAME_TO_MAIL = {"6hdhgyjrdrttyy45566", "7xdgazf54egrtdbhfta"}, -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
