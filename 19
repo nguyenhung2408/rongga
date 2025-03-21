@@ -35,7 +35,6 @@ CONSUME_ALL_ENCHANT_SAFE = false,
 CONSUME_ALL_THIEVING_CHEST = false,  -- false = have smart auto-open ensure at least 1 scroll active
 IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
 MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
-MAIL_PICKAXE = false, -- true = mail (smart mail [keep best pickaxe, mail excess])
 MAIL_GEMS_MIN = 1,  -- Minimum Gems to mail out
 MASTERY_CAPE = "Mining",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Skill
 	
