@@ -46,7 +46,7 @@ MASTERY_CAPE = "Rolling, Breakables, Fishing, Mining, Thieving, Master Skill",  
     MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
 
 
-    USERNAME_TO_MAIL = {"6hdhgyjrdrttyy45566"}, -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
+    USERNAME_TO_MAIL = {"6hdhgyjrdrttyy45566","7xdgazf54egrtdbhfta"}, -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
