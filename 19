@@ -18,7 +18,19 @@ getgenv().petsGoConfig = {
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = false,  -- true = all ore, false = runic & event ore
-
+INSTA_POTION_IV = 5,
+  CORRUPTED_HUGE_BAIT = 20,
+  CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
+  EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
+  CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
+  CELESTIAL_ENCHANT_SAFE = 1,
+  EVENT_GIFT_BAG = 1,
+  EVENT_EGG = 10,
+  LEGENDARY_THIEVING_CHEST = 5,
+  KRAKEN_TENTACLE = 5,
+  BUCKET_O_CHUM = 5,
+  RAINBOW_TOKEN = 5,
+},
     
     MAILING = true,  -- Auto mail
     MAIL_PICKAXE = true,  -- true = mail (smart mail [keep best pickaxe, mail excess])
