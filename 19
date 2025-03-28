@@ -1,3 +1,5 @@
+setfpscap(5)  -- number = fps
+
 getgenv().petsGoConfig = {
     AUTO_RESTART = true,
     -- true/false (true = consume, false = automail)
@@ -9,35 +11,15 @@ getgenv().petsGoConfig = {
     CONSUME_KRAKEN_TENTACLE = true,
     CONSUME_BUCKET_O_CHUM = true,
 
+
     WEBHOOK_URL = "https://discord.com/api/webhooks/1336292908344807434/KkiKk-uuRNj-oRfNacKJ31gw8uGwZRiGwvUOQGskjs6Wp_5-LEZAUlYFyeXwnOzBd4Gb",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1336295855657062431/lWwQlp10lntP9iiCp-d1YXwtg6-pypkRFOGt7sO2gxC8WxMJRxxH5R6y3AH_3hE4_TjI",
     DISCORD_ID = "1174567331612065792",
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
-    DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
+    DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = false,  -- true = all ore, false = runic & event ore
-MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
-  -- General
-  INSTA_POTION_IV = 5,
-  CORRUPTED_HUGE_BAIT = 20,
-  CRYSTAL_KEY = 5, CRYSTAL_KEY_UPPER_HALF = 10, CRYSTAL_KEY_LOWER_HALF = 20,
-  EXCLUSIVE_TREASURE_CHEST = 5, ABYSSAL_TREASURE_CHEST = 5,
-  CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 5,
-  CELESTIAL_ENCHANT_SAFE = 1,
-  EVENT_GIFT_BAG = 1,
-  EVENT_EGG = 10,
-  LEGENDARY_THIEVING_CHEST = 5,
-  KRAKEN_TENTACLE = 5,
-  BUCKET_O_CHUM = 5,
-},
-CONSUME_ALL_FISHING_CHEST = true,
-CONSUME_ALL_ENCHANT_SAFE = true,
-CONSUME_ALL_THIEVING_CHEST = true,  -- false = have smart auto-open ensure at least 1 scroll active
-IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
-MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
-MAIL_GEMS_MIN = 50000,  -- Minimum Gems to mail out
-MASTERY_CAPE = "Mining",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Skill
-	
+
     
     MAILING = true,  -- Auto mail
     MAIL_PICKAXE = true,  -- true = mail (smart mail [keep best pickaxe, mail excess])
