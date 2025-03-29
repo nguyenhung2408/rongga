@@ -29,7 +29,7 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_FISHING_CHEST = true,
     CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_THIEVING_CHEST = true,  -- false = have smart auto-open ensure at least 1 scroll active
-    IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
+    IGNORE_DICE_COMBO = true, -- Consume Insta Luck 3 without combo
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_PICKAXE = true, -- true = mail (smart mail [keep best pickaxe, mail excess])
     MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
