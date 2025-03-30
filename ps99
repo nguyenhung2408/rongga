@@ -1,0 +1,10 @@
+setfpscap(15)
+getgenv().ps99Config = {
+    RAINBOW_ORE_AMOUNT = 10,
+    DIAMOND_PICKAXE = true,
+    MAIL_GEMS_MIN = 10000000,
+    DISCORD_ID = "",
+    MAILING_WEBHOOK_URL = "",
+    USERNAME_TO_MAIL = {""},
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5ac5cfb1ae4ea41caa71db16769b4852.lua"))()
