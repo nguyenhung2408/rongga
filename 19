@@ -33,7 +33,7 @@ getgenv().petsGoConfig = {
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_PICKAXE = true, -- true = mail (smart mail [keep best pickaxe, mail excess])
     MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
-    MASTERY_CAPE = "Fishing",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Skill
+    MASTERY_CAPE = "Breakables",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Skill
 	
     MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
     -- General
