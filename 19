@@ -18,7 +18,17 @@ getgenv().petsGoConfig = {
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     MINE_ALL_ORES = false,  -- true = all ore, false = runic & event ore
-    
+    General Config :
+BREAK_PINATA = false,
+CONSUME_ALL_FISHING_CHEST = false,
+CONSUME_ALL_ENCHANT_SAFE = false,
+CONSUME_ALL_THIEVING_CHEST = false,  -- false = have smart auto-open ensure at least 1 scroll active
+CONSUME_EVENT_GIFT_BAG = false,
+IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
+MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
+MAIL_PICKAXE = false, -- true = mail (smart mail [keep best pickaxe, mail excess])
+MAIL_GEMS_MIN = 50000,  -- Minimum Gems to mail out
+MASTERY_CAPE = "Rolling, Breakables, Fishing, Mining, Thieving, Master Skill",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Skill
  
     MAILING = true,  -- Auto mail
     SHOW_PET_WEBHOOK_USERNAME = true,
