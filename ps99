@@ -1,4 +1,4 @@
-getgenv().DuckHook = "PC1234"
+getgenv().DuckHook = "Bò Bi"
 wait(60)
 script_key = "NfVNcEzYOXNoXAGMHQMimZJJjxdvfDRK";
 getgenv().UserConfig = {
