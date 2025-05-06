@@ -3,7 +3,7 @@ wait(60)
 script_key = "NfVNcEzYOXNoXAGMHQMimZJJjxdvfDRK";
 getgenv().UserConfig = {
     FPS                 = 3,
-    AddFriends          = false,
+    AddFriends          = true,
     RedeemCode = {"RELEASE", "THANKS", "LUCKY", "Easter", "Throwback", "update2"},
     ["Giant Chest"] = true,
     ["Void Chest"] = true,
