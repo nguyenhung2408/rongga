@@ -1,6 +1,4 @@
-getgenv().DuckHook = "Hưng Hưng"
- wait(60)
- script_key = "NfVNcEzYOXNoXAGMHQMimZJJjxdvfDRK";
+
  getgenv().UserConfig = {
     FPS                 = 3,
     AddFriends          = true,
