@@ -76,13 +76,15 @@
             "Mythic V"
         }
     },
-   ["Rifts"] = {
-        AlwaysFindRifts = true,
-        Targets = {"Silly Egg", "Cyber Egg"},
-        Luck = 5
+
+["Rifts"] = {
+    AlwaysFindRifts = true,
+    Targets = {"Underworld Egg 1","Underworld Egg 2","Underworld Egg 3"},
+    Luck = 5
+},
     },
     ["Min gems"] = "3m",
-    FindDuck = "Game Egg",
+ FindDuck = "200M Egg",
     ["Best Potions Find Duck"] = true,
     ["Enchant Team 1"] = {enable = true, ["team-up"] = 1},
     ["Gems coefficient"] = 24,
