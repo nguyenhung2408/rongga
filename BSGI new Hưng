@@ -7,10 +7,10 @@ getgenv().UserConfig = {
     AutoMinigames       = true,
     AutoRollDice        = true,
     ["Super Ticket"]    = "Robot Claw",
-    ["Giant Chest"] = false,
-    ["Void Chest"] = false,
-    ["Golden Chest"] = false,
-    ["Royal Chest"] = false,
+    ["Giant Chest"] = true,
+    ["Void Chest"] = true,
+    ["Golden Chest"] = true,
+    ["Royal Chest"] = true,
     Competitive = {
         Choosing = "1,2,1,2,1,1,2,2,1,2"
     },
@@ -24,7 +24,7 @@ getgenv().UserConfig = {
         }
     },
     ["Alien Shop"] = {
-        Enable = false,
+        Enable = true,
         ["Min Gems"] = "1m",
         ["Items Needed"] = {
             "Golden Key",
