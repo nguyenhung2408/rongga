@@ -93,16 +93,16 @@ getgenv().UserConfig = {
     ["Auto Restart"] = true,
 
     ["Webhook"] = {
-        Enable = true,
-        Note = getgenv().DuckHook,
-        ID = "", -- Enter your Discord ID here
-        URL = "", -- Add your webhook URL here
+         Enable = true, -- Enable/disable pet hatch notification webhook
+         Note = getgenv().DuckHook, -- Note displayed on the webhook
+         ID = "1174567331612065792", -- Enter your Discord ID here
+         URL = "https://discord.com/api/webhooks/1336292908344807434/KkiKk-uuRNj-oRfNacKJ31gw8uGwZRiGwvUOQGskjs6Wp_5-LEZAUlYFyeXwnOzBd4Gb", -- Add your webhook URL here
         Rarity = {
-            "Legendary",
-            "Secret"
-        }, -- General rarity filter
-        Legendary = "100m",
-        ["Special Pets"] = {"Avernus", "Patronus","Dementor","Jackpot","Luminosity"}
-    }
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b85c17425e59b76c0487999c21ef4557.lua"))()
+             "Legendary",
+             "Secret"
+         }, -- General rarity filter
+         Legendary = "10m",
+         ["Special Pets"] = {"Avernus", "Patronus","Dementor"}
+     }
+ }
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b85c17425e59b76c0487999c21ef4557.lua"))()
